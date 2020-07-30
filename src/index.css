@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
@@ -24,3 +23,9 @@ body {
 a {
   color: inherit;
 } 
+
+#root {
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
+}
